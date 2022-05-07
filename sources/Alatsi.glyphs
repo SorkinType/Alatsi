@@ -9,7 +9,9 @@ Z,
 z,
 n,
 "/Ezh",
-"E/Ezh"
+"E/Ezh",
+"/slashlongcomb E/Estroke",
+"/slashlongcomb/Estroke"
 );
 classes = (
 {
@@ -3023,7 +3025,7 @@ unicode = 01C5;
 },
 {
 glyphname = E;
-lastChange = "2019-10-28 18:28:25 +0000";
+lastChange = "2022-05-07 03:15:17 +0000";
 layers = (
 {
 anchors = (
@@ -3037,7 +3039,7 @@ position = "{542, 1660}";
 },
 {
 name = vslash;
-position = "{512, 690}";
+position = "{602, 690}";
 }
 );
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
@@ -3778,6 +3780,7 @@ unicode = 01A9;
 },
 {
 glyphname = Estroke;
+lastChange = "2022-05-07 03:15:17 +0000";
 layers = (
 {
 components = (
@@ -3786,7 +3789,7 @@ name = E;
 },
 {
 name = slashlongcomb;
-transform = "{1, 0, 0, 1, 940, 0}";
+transform = "{1, 0, 0, 1, 1030, 0}";
 }
 );
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
@@ -6143,7 +6146,7 @@ unicode = 014A;
 {
 color = 1;
 glyphname = Nhookleft;
-lastChange = "2021-12-06 07:10:51 +0000";
+lastChange = "2022-05-07 03:14:46 +0000";
 layers = (
 {
 anchors = (
@@ -6177,13 +6180,6 @@ nodes = (
 "275 998 LINE",
 "479 734 LINE",
 "1147 -28 LINE"
-);
-},
-{
-closed = 0;
-nodes = (
-"181 0 LINE",
-"437 0 LINE"
 );
 },
 {
@@ -36051,7 +36047,7 @@ unicode = 0337;
 },
 {
 glyphname = slashlongcomb;
-lastChange = "2019-10-28 18:28:25 +0000";
+lastChange = "2022-05-07 03:15:40 +0000";
 layers = (
 {
 anchors = (
@@ -36065,10 +36061,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-530 -256 LINE",
-"-124 1640 LINE",
-"-332 1640 LINE",
-"-734 -256 LINE"
+"-557 -256 LINE",
+"-184 1640 LINE",
+"-312 1640 LINE",
+"-684 -256 LINE"
 );
 }
 );
