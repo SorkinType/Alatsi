@@ -21,16 +21,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* uni1E1D
+	* Scedilla
 	* uni1E08
 	* uni0163
-	* uni0336
-	* iogonek
-	* ccedilla
-	* uni1E1D
-	* uni0335
-	* uni1E09
 	* Eogonek
-	* Scedilla and 3 more.
+	* uni0336
+	* uni1E09
+	* ccedilla
+	* iogonek
+	* uni0335 and 3 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -57,14 +57,14 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
-	- questiondown.cap
 	- exclamdown.cap
-	- f_f_i_dflt
-	- zero.lt.zero
 	- uni03060303.case.001
-	- IJ_acutecomb 
-	- And ij_acutecomb
+	- zero.lt.zero
+	- f_f_i_dflt
+	- ij_acutecomb
+	- IJ_acutecomb
+	- .null 
+	- And questiondown.cap
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
