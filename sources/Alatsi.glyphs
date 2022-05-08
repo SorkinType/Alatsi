@@ -1,17 +1,7 @@
 {
 .appVersion = "1361";
 DisplayStrings = (
-"/dotaccentcomb/odotaccentmacron",
-"/longs",
-V,
-Z,
-"/strokeshortcomb/strokeshortcomb/Zstroke",
-z,
-n,
-"/Ezh",
-"E/Ezh",
-"/slashlongcomb E/Estroke",
-"/slashlongcomb/Estroke"
+"/estroke"
 );
 classes = (
 {
@@ -13885,7 +13875,9 @@ width = 926;
 unicode = 0283;
 },
 {
+color = 0;
 glyphname = estroke;
+lastChange = "2022-05-07 04:20:30 +0000";
 layers = (
 {
 components = (
@@ -13894,6 +13886,7 @@ name = e;
 },
 {
 name = slashlongcomb;
+transform = "{1, 0, 0, 1, 998, 0}";
 }
 );
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
