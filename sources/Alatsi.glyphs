@@ -1,6 +1,9 @@
 {
 .appVersion = "3133";
 .formatVersion = 3;
+DisplayStrings = (
+"̸Ɇ"
+);
 classes = (
 {
 automatic = 1;
@@ -3684,7 +3687,7 @@ unicode = 425;
 },
 {
 glyphname = Estroke;
-lastChange = "2022-10-20 12:00:43 +0000";
+lastChange = "2022-10-20 13:42:01 +0000";
 layers = (
 {
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
@@ -3693,8 +3696,13 @@ shapes = (
 ref = E;
 },
 {
-pos = (1030,0);
-ref = slashlongcomb;
+closed = 1;
+nodes = (
+(473,-256,l),
+(846,1640,l),
+(718,1640,l),
+(346,-256,l)
+);
 }
 );
 width = 1012;
@@ -27640,22 +27648,22 @@ com.typemytype.robofont.mark = (
 glyphname = periodcentered;
 kernLeft = period;
 kernRight = period;
-lastChange = "2022-10-20 13:23:29 +0000";
+lastChange = "2022-10-20 13:38:32 +0000";
 layers = (
 {
 guides = (
 {
-pos = (178,928);
+pos = (592,928);
 }
 );
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
 shapes = (
 {
-pos = (-394,630);
+pos = (20,630);
 ref = period;
 }
 );
-width = 52;
+width = 466;
 }
 );
 unicode = 183;
@@ -36203,15 +36211,9 @@ unicode = 823;
 },
 {
 glyphname = slashlongcomb;
-lastChange = "2022-10-20 12:00:43 +0000";
+lastChange = "2022-10-20 13:42:10 +0000";
 layers = (
 {
-anchors = (
-{
-name = _vslash;
-pos = (-428,690);
-}
-);
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
 shapes = (
 {
