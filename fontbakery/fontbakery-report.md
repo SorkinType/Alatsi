@@ -2,35 +2,20 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[12] Alatsi-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
-
-
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
-* ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-* ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
- [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+<details><summary><b>[10] Alatsi-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0338
-	* uni1E1D
-	* uni0336
-	* uni1E09
-	* iogonek
-	* Scedilla
-	* uni0335
 	* Ccedilla
-	* uni0163
-	* scedilla and 3 more.
+	* uni0336
+	* ccedilla
+	* scedilla
+	* uni0338
+	* iogonek
+	* uni1E09
+	* uni1E1D
+	* Eogonek
+	* Scedilla and 3 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -58,13 +43,18 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 	- questiondown.cap
-	- .null
+	- uni03080300.case
+	- exclamdown.cap
+	- uni03030304.case
+	- uni03080301.case
 	- uni03060303.case.001
-	- IJ_acutecomb
-	- ij_acutecomb
-	- f_f_i_dflt
-	- zero.lt.zero 
-	- And exclamdown.cap
+	- zero.lt.zero
+	- .null
+	- uni03030308.case
+	- IJ_acutecomb 
+	- And 4 more.
+
+Use -F or --full-lists to disable shortening of long lists.
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -76,15 +66,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 	- Glyph name: thorn	Contours detected: 3	Expected: 2
-	- Glyph name: Hbar	Contours detected: 2	Expected: 1
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 	- Glyph name: uni01B6	Contours detected: 2	Expected: 1
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
-	- Glyph name: uni0246	Contours detected: 2	Expected: 3
-	- Glyph name: uni0247	Contours detected: 3	Expected: 4
-	- Glyph name: uni024C	Contours detected: 2	Expected: 1 
-	- And 16 more.
+	- Glyph name: uni024C	Contours detected: 2	Expected: 1
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2 
+	- And 11 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -115,13 +105,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* b (U+0062): L<<396.0,996.0>--<376.0,824.0>>/B<<376.0,824.0>-<392.0,892.0>-<439.5,936.0>> = 6.60800530004868
 	* d (U+0064): B<<658.5,969.5>-<729.0,919.0>-<750.0,824.0>>/L<<750.0,824.0>--<732.0,970.0>> = 5.436536603115342
 	* dcaron (U+010F): B<<658.5,969.5>-<729.0,919.0>-<750.0,824.0>>/L<<750.0,824.0>--<732.0,970.0>> = 5.436536603115342
+	* dcroat (U+0111): B<<658.5,969.5>-<729.0,919.0>-<750.0,824.0>>/L<<750.0,824.0>--<732.0,970.0>> = 5.436536603115342
 	* eth (U+00F0): B<<701.0,856.5>-<729.0,817.0>-<738.0,780.0>>/B<<738.0,780.0>-<727.0,901.0>-<662.0,1010.0>> = 8.47687822446107
 	* p (U+0070): B<<460.5,41.0>-<394.0,110.0>-<370.0,198.0>>/L<<370.0,198.0>--<394.0,10.0>> = 7.980113745168495
 	* p (U+0070): L<<390.0,964.0>--<370.0,824.0>>/B<<370.0,824.0>-<382.0,881.0>-<424.5,926.0>> = 3.758555685471942
 	* q (U+0071): B<<666.5,963.5>-<732.0,907.0>-<750.0,824.0>>/L<<750.0,824.0>--<750.0,996.0>> = 12.236111509416325
 	* q (U+0071): L<<730.0,10.0>--<750.0,204.0>>/B<<750.0,204.0>-<722.0,87.0>-<645.5,29.5>> = 7.57269677558675
-	* thorn (U+00FE): B<<472.0,36.0>-<404.0,100.0>-<379.0,186.0>>/L<<379.0,186.0>--<398.0,10.0>> = 10.047546824137292
-	* thorn (U+00FE): L<<396.0,996.0>--<376.0,824.0>>/B<<376.0,824.0>-<392.0,892.0>-<439.5,936.0>> = 6.60800530004868 and 32 more.
+	* thorn (U+00FE): B<<472.0,36.0>-<404.0,100.0>-<379.0,186.0>>/L<<379.0,186.0>--<398.0,10.0>> = 10.047546824137292 and 33 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -145,8 +135,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 12 | 104 | 7 | 102 | 0 |
-| 0% | 0% | 5% | 46% | 3% | 45% | 0% |
+| 0 | 0 | 10 | 104 | 7 | 104 | 0 |
+| 0% | 0% | 4% | 46% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
