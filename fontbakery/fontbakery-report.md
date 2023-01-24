@@ -2,22 +2,16 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[10] Alatsi-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+<details><summary><b>[11] Alatsi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
+
+
+* 🔥 **FAIL** Version number 1.0050048828125 is equal to version on Google Fonts.
+* 🔥 **FAIL** Version number 1.0050048828125 is equal to version on Google Fonts GitHub repo.
+</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Ccedilla
-	* uni0336
-	* ccedilla
-	* scedilla
-	* uni0338
-	* iogonek
-	* uni1E09
-	* uni1E1D
-	* Eogonek
-	* Scedilla and 3 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	* guilsinglright.case
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -42,16 +36,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- questiondown.cap
-	- uni03080300.case
-	- exclamdown.cap
-	- uni03030304.case
-	- uni03080301.case
-	- uni03060303.case.001
-	- zero.lt.zero
+	- IJ_acutecomb
 	- .null
+	- uni03060303.case.001
+	- uni03080304.case
+	- uni0308030C.case
 	- uni03030308.case
-	- IJ_acutecomb 
+	- exclamdown.cap
+	- questiondown.cap
+	- uni03030304.case
+	- zero.lt.zero 
 	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -135,7 +129,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 10 | 104 | 7 | 104 | 0 |
+| 0 | 1 | 10 | 104 | 7 | 103 | 0 |
 | 0% | 0% | 4% | 46% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
