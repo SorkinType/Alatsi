@@ -112,13 +112,17 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Alatsi-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* uni0246
-* guilsinglright.case
+* Ohorn
+* uni021A
 * uni20B4
-* uni0247
+* uni01B2
+* uni1E10
 * uni0244
-* uni1EA8
-* uni01AC and Ohorn</p>
+* uni0246
+* uni0326.case
+* uni01AC
+* quotesingle and 9 more.</p>
+<p>Use -F or --full-lists to disable shortening of long lists.</p>
 </span></li></ul></div></details>
 <h3>Is there kerning info for non-ligated sequences?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
@@ -147,16 +151,16 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Alatsi-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:
-- exclamdown.cap
-- uni03080300.case
-- questiondown.cap
-- zero.lt.zero
-- uni03080301.case
-- uni03030304.case
+- .null
 - uni0308030C.case
-- uni03080304.case
+- f_f_i_dflt
+- uni03060303.case.001
+- uni03080301.case
+- zero.lt.zero
 - IJ_acutecomb
 - ij_acutecomb
+- exclamdown.cap
+- uni03030304.case
 - And 4 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: unreachable-glyphs]</p>
@@ -176,8 +180,8 @@
 - Glyph name: uni01ED	Contours detected: 4	Expected: 3
 - Glyph name: uni0228	Contours detected: 2	Expected: 1
 - Glyph name: uni0229	Contours detected: 3	Expected: 2
-- Glyph name: uni0246	Contours detected: 2	Expected: 3 
-- And 20 more.
+- Glyph name: uni023D	Contours detected: 2	Expected: 1 
+- And 24 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
@@ -201,7 +205,7 @@
 * W (U+0057): X=446.0,Y=-1.0 (should be at baseline 0?)
 * p (U+0070): X=528.5,Y=996.5 (should be at x-height 996?)
 * cent (U+00A2): X=458.0,Y=1392.0 (should be at cap-height 1394?)
-* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 54 more.</p>
+* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 55 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
 </span></li></ul></div></details>
 <h3>Do outlines contain any jaggy segments?</h3>
@@ -217,7 +221,7 @@
 * p (U+0070): B&lt;&lt;460.5,41.0&gt;-&lt;394.0,110.0&gt;-&lt;370.0,198.0&gt;&gt;/L&lt;&lt;370.0,198.0&gt;--&lt;394.0,10.0&gt;&gt; = 7.980113745168495
 * p (U+0070): L&lt;&lt;390.0,964.0&gt;--&lt;370.0,824.0&gt;&gt;/B&lt;&lt;370.0,824.0&gt;-&lt;382.0,881.0&gt;-&lt;424.5,926.0&gt;&gt; = 3.758555685471942
 * q (U+0071): B&lt;&lt;666.5,963.5&gt;-&lt;732.0,907.0&gt;-&lt;750.0,824.0&gt;&gt;/L&lt;&lt;750.0,824.0&gt;--&lt;750.0,996.0&gt;&gt; = 12.236111509416325
-* q (U+0071): L&lt;&lt;730.0,10.0&gt;--&lt;750.0,204.0&gt;&gt;/B&lt;&lt;750.0,204.0&gt;-&lt;722.0,87.0&gt;-&lt;645.5,29.5&gt;&gt; = 7.57269677558675 and 33 more.</p>
+* q (U+0071): L&lt;&lt;730.0,10.0&gt;--&lt;750.0,204.0&gt;&gt;/B&lt;&lt;750.0,204.0&gt;-&lt;722.0,87.0&gt;-&lt;645.5,29.5&gt;&gt; = 7.57269677558675 and 36 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]</p>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
@@ -225,6 +229,7 @@
 
 <details><summary>⚠️ <strong>fonts/ttf/Alatsi-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
 <ul>
+<li>Eng (U+014A): L&lt;&lt;864.0,-78.0&gt;--&lt;865.0,949.0&gt;&gt;</li>
 <li>ae (U+00E6): L&lt;&lt;842.0,572.0&gt;--&lt;1196.0,574.0&gt;&gt;</li>
 <li>aeacute (U+01FD): L&lt;&lt;842.0,572.0&gt;--&lt;1196.0,574.0&gt;&gt;</li>
 <li>oe (U+0153): L&lt;&lt;1002.0,572.0&gt;--&lt;1356.0,574.0&gt;&gt;</li>
@@ -232,9 +237,8 @@
 <li>q (U+0071): L&lt;&lt;976.0,996.0&gt;--&lt;972.0,-436.0&gt;&gt;</li>
 <li>uni01A5 (U+01A5): L&lt;&lt;152.0,-436.0&gt;--&lt;154.0,1173.0&gt;&gt;</li>
 <li>uni01AD (U+01AD): L&lt;&lt;189.0,996.0&gt;--&lt;188.0,1177.0&gt;&gt;</li>
-<li>uni01B2 (U+01B2): L&lt;&lt;870.0,470.0&gt;--&lt;871.0,1111.0&gt;&gt;</li>
-<li>uni01E3 (U+01E3): L&lt;&lt;842.0,572.0&gt;--&lt;1196.0,574.0&gt;&gt;</li>
-<li>uni024B (U+024B): L&lt;&lt;976.0,996.0&gt;--&lt;973.0,12.0&gt;&gt; and 5 more.</li>
+<li>uni01B2 (U+01B2): L&lt;&lt;870.0,580.0&gt;--&lt;871.0,1111.0&gt;&gt;</li>
+<li>uni01E3 (U+01E3): L&lt;&lt;842.0,572.0&gt;--&lt;1196.0,574.0&gt;&gt; and 7 more.</li>
 </ul>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
 </span></li></ul></div></details>

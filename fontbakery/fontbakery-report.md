@@ -21,13 +21,18 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0246
-	* guilsinglright.case
+	* Ohorn
+	* uni021A
 	* uni20B4
-	* uni0247
+	* uni01B2
+	* uni1E10
 	* uni0244
-	* uni1EA8
-	* uni01AC and Ohorn
+	* uni0246
+	* uni0326.case
+	* uni01AC
+	* quotesingle and 9 more.
+
+Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -52,16 +57,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- exclamdown.cap
-	- uni03080300.case
-	- questiondown.cap
-	- zero.lt.zero
-	- uni03080301.case
-	- uni03030304.case
+	- .null
 	- uni0308030C.case
-	- uni03080304.case
+	- f_f_i_dflt
+	- uni03060303.case.001
+	- uni03080301.case
+	- zero.lt.zero
 	- IJ_acutecomb
-	- ij_acutecomb 
+	- ij_acutecomb
+	- exclamdown.cap
+	- uni03030304.case 
 	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -83,8 +88,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
 	- Glyph name: uni0229	Contours detected: 3	Expected: 2
-	- Glyph name: uni0246	Contours detected: 2	Expected: 3 
-	- And 20 more.
+	- Glyph name: uni023D	Contours detected: 2	Expected: 1 
+	- And 24 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -105,7 +110,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* W (U+0057): X=446.0,Y=-1.0 (should be at baseline 0?)
 	* p (U+0070): X=528.5,Y=996.5 (should be at x-height 996?)
 	* cent (U+00A2): X=458.0,Y=1392.0 (should be at cap-height 1394?)
-	* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 54 more.
+	* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 55 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -121,13 +126,14 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* p (U+0070): B<<460.5,41.0>-<394.0,110.0>-<370.0,198.0>>/L<<370.0,198.0>--<394.0,10.0>> = 7.980113745168495
 	* p (U+0070): L<<390.0,964.0>--<370.0,824.0>>/B<<370.0,824.0>-<382.0,881.0>-<424.5,926.0>> = 3.758555685471942
 	* q (U+0071): B<<666.5,963.5>-<732.0,907.0>-<750.0,824.0>>/L<<750.0,824.0>--<750.0,996.0>> = 12.236111509416325
-	* q (U+0071): L<<730.0,10.0>--<750.0,204.0>>/B<<750.0,204.0>-<722.0,87.0>-<645.5,29.5>> = 7.57269677558675 and 33 more.
+	* q (U+0071): L<<730.0,10.0>--<750.0,204.0>>/B<<750.0,204.0>-<722.0,87.0>-<645.5,29.5>> = 7.57269677558675 and 36 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+ * Eng (U+014A): L<<864.0,-78.0>--<865.0,949.0>>
  * ae (U+00E6): L<<842.0,572.0>--<1196.0,574.0>>
  * aeacute (U+01FD): L<<842.0,572.0>--<1196.0,574.0>>
  * oe (U+0153): L<<1002.0,572.0>--<1356.0,574.0>>
@@ -135,9 +141,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * q (U+0071): L<<976.0,996.0>--<972.0,-436.0>>
  * uni01A5 (U+01A5): L<<152.0,-436.0>--<154.0,1173.0>>
  * uni01AD (U+01AD): L<<189.0,996.0>--<188.0,1177.0>>
- * uni01B2 (U+01B2): L<<870.0,470.0>--<871.0,1111.0>>
- * uni01E3 (U+01E3): L<<842.0,572.0>--<1196.0,574.0>>
- * uni024B (U+024B): L<<976.0,996.0>--<973.0,12.0>> and 5 more.
+ * uni01B2 (U+01B2): L<<870.0,580.0>--<871.0,1111.0>>
+ * uni01E3 (U+01E3): L<<842.0,572.0>--<1196.0,574.0>> and 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
