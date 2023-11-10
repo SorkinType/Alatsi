@@ -22,15 +22,15 @@ Fontbakery version: 0.8.8
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
 	* uni01AC
-	* uni20B4
-	* uni0247
-	* guilsinglright.case
-	* uni1EA8
+	* uni0246
+	* florin
+	* uni01A9
 	* Eng
-	* uni0218
-	* uni0263
+	* quotesingle
 	* uni021A
-	* uni0246 and 10 more.
+	* uni0326.case
+	* guilsinglright.case
+	* uni1EA8 and 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -57,16 +57,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
-	- uni03030304.case
-	- uni03060303.case.001
-	- exclamdown.cap
-	- f_f_i_dflt
-	- uni03080301.case
-	- uni03080300.case
-	- IJ_acutecomb
 	- ij_acutecomb
-	- uni03030308.case 
+	- f_f_i_dflt
+	- uni03080304.case
+	- .null
+	- uni03080301.case
+	- uni03060303.case.001
+	- uni03080300.case
+	- questiondown.cap
+	- uni0308030C.case
+	- exclamdown.cap 
 	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
