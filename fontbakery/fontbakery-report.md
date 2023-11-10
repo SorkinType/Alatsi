@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[12] Alatsi-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[11] Alatsi-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
@@ -21,16 +21,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Ohorn
-	* uni021A
-	* uni20B4
-	* uni01B2
-	* uni1E10
-	* uni0244
-	* uni0246
+	* uni0263
 	* uni0326.case
+	* guilsinglright.case
+	* uni0244
 	* uni01AC
-	* quotesingle and 9 more.
+	* florin
+	* uni01A9
+	* uni0247
+	* uni0218
+	* quotedbl and 10 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
@@ -57,15 +57,15 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- .null
+	- IJ_acutecomb
 	- uni0308030C.case
-	- f_f_i_dflt
+	- uni03030308.case
 	- uni03060303.case.001
+	- uni03080300.case
+	- exclamdown.cap
 	- uni03080301.case
 	- zero.lt.zero
-	- IJ_acutecomb
-	- ij_acutecomb
-	- exclamdown.cap
+	- .null
 	- uni03030304.case 
 	- And 4 more.
 
@@ -82,21 +82,17 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 	- Glyph name: thorn	Contours detected: 3	Expected: 2
 	- Glyph name: Hbar	Contours detected: 2	Expected: 1
+	- Glyph name: uni019A	Contours detected: 2	Expected: 1
 	- Glyph name: uni01B5	Contours detected: 2	Expected: 1
 	- Glyph name: uni01B6	Contours detected: 2	Expected: 1
 	- Glyph name: uni01EC	Contours detected: 4	Expected: 3
 	- Glyph name: uni01ED	Contours detected: 4	Expected: 3
 	- Glyph name: uni0228	Contours detected: 2	Expected: 1
-	- Glyph name: uni0229	Contours detected: 3	Expected: 2
-	- Glyph name: uni023D	Contours detected: 2	Expected: 1 
-	- And 24 more.
+	- Glyph name: uni0229	Contours detected: 3	Expected: 2 
+	- And 26 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
 
@@ -110,7 +106,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* W (U+0057): X=446.0,Y=-1.0 (should be at baseline 0?)
 	* p (U+0070): X=528.5,Y=996.5 (should be at x-height 996?)
 	* cent (U+00A2): X=458.0,Y=1392.0 (should be at cap-height 1394?)
-	* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 55 more.
+	* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 56 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -142,7 +138,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
  * uni01A5 (U+01A5): L<<152.0,-436.0>--<154.0,1173.0>>
  * uni01AD (U+01AD): L<<189.0,996.0>--<188.0,1177.0>>
  * uni01B2 (U+01B2): L<<870.0,580.0>--<871.0,1111.0>>
- * uni01E3 (U+01E3): L<<842.0,572.0>--<1196.0,574.0>> and 7 more.
+ * uni01E3 (U+01E3): L<<842.0,572.0>--<1196.0,574.0>> and 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -150,8 +146,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 12 | 104 | 7 | 102 | 0 |
-| 0% | 0% | 5% | 46% | 3% | 45% | 0% |
+| 0 | 0 | 11 | 104 | 7 | 103 | 0 |
+| 0% | 0% | 5% | 46% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
