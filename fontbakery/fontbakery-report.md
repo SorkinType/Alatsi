@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.8
 
-<details><summary><b>[11] Alatsi-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[10] AlatsiD-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=13] [code: http-in-description]
@@ -17,22 +17,6 @@ Fontbakery version: 0.8.8
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
 * ⚠ **WARN** For now we're still accepting http URLs, but you should consider using https instead.
  [code: http]
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
-
-
-* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni01AC
-	* uni0246
-	* florin
-	* uni01A9
-	* Eng
-	* quotesingle
-	* uni021A
-	* uni0326.case
-	* guilsinglright.case
-	* uni1EA8 and 10 more.
-
-Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -57,16 +41,16 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- ij_acutecomb
-	- f_f_i_dflt
-	- uni03080304.case
-	- .null
-	- uni03080301.case
-	- uni03060303.case.001
+	- zero.lt.zero
 	- uni03080300.case
+	- uni03030308.case
+	- IJ_acutecomb
+	- uni03080304.case
+	- ij_acutecomb
 	- questiondown.cap
-	- uni0308030C.case
-	- exclamdown.cap 
+	- uni03080301.case
+	- exclamdown.cap
+	- f_f_i_dflt 
 	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -106,7 +90,7 @@ Use -F or --full-lists to disable shortening of long lists.
 	* W (U+0057): X=446.0,Y=-1.0 (should be at baseline 0?)
 	* p (U+0070): X=528.5,Y=996.5 (should be at x-height 996?)
 	* cent (U+00A2): X=458.0,Y=1392.0 (should be at cap-height 1394?)
-	* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 56 more.
+	* cent (U+00A2): X=696.0,Y=1392.0 (should be at cap-height 1394?) and 52 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -146,8 +130,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 11 | 104 | 7 | 103 | 0 |
-| 0% | 0% | 5% | 46% | 3% | 46% | 0% |
+| 0 | 0 | 10 | 107 | 7 | 101 | 0 |
+| 0% | 0% | 4% | 48% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
