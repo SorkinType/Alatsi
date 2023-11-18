@@ -41,16 +41,16 @@ Fontbakery version: 0.8.8
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
-	- ij_acutecomb
-	- uni03060303.case.001
-	- exclamdown.cap
-	- uni03080300.case
-	- f_f_i_dflt
-	- zero.lt.zero
+	- uni0308030C.case
+	- uni03030304.case
+	- .null
 	- IJ_acutecomb
-	- uni03080301.case
+	- f_f_i_dflt
+	- ij_acutecomb
+	- questiondown.cap
 	- uni03030308.case
-	- questiondown.cap 
+	- exclamdown.cap
+	- uni03060303.case.001 
 	- And 4 more.
 
 Use -F or --full-lists to disable shortening of long lists.
