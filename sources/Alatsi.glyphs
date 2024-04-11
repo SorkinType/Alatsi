@@ -37431,8 +37431,24 @@ name = bottom;
 pos = (893,0);
 },
 {
+name = center;
+pos = (889,980);
+},
+{
+name = ogonek;
+pos = (983,0);
+},
+{
 name = top;
 pos = (893,1954);
+},
+{
+name = topright;
+pos = (1512,1571);
+},
+{
+name = vslash;
+pos = (899,980);
 }
 );
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
