@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3257";
 .formatVersion = 3;
 DisplayStrings = (
 "Ŋ̀",
@@ -822,6 +822,12 @@ sub aogonek by aogonek.ss01;
 sub aring by aring.ss01;
 sub atilde by atilde.ss01;
 ";
+labels = (
+{
+language = dflt;
+value = "Alternative a";
+}
+);
 tag = ss01;
 }
 );
