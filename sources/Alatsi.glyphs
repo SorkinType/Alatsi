@@ -1,5 +1,5 @@
 {
-.appVersion = "3227";
+.appVersion = "3257";
 .formatVersion = 3;
 DisplayStrings = (
 "Ŋ̀",
@@ -822,6 +822,12 @@ sub aogonek by aogonek.ss01;
 sub aring by aring.ss01;
 sub atilde by atilde.ss01;
 ";
+labels = (
+{
+language = dflt;
+value = "Alternative a";
+}
+);
 tag = ss01;
 }
 );
@@ -37431,8 +37437,24 @@ name = bottom;
 pos = (893,0);
 },
 {
+name = center;
+pos = (889,980);
+},
+{
+name = ogonek;
+pos = (983,0);
+},
+{
 name = top;
 pos = (893,1954);
+},
+{
+name = topright;
+pos = (1512,1571);
+},
+{
+name = vslash;
+pos = (899,980);
 }
 );
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
