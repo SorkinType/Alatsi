@@ -28204,7 +28204,7 @@ R = fraction;
 },
 {
 glyphname = onehalf;
-lastChange = "2023-11-10 01:45:47 +0000";
+lastChange = "2023-11-11 02:57:31 +0000";
 layers = (
 {
 layerId = "B61D43DE-5272-4FF4-A680-608B6BF5ED9E";
@@ -28213,15 +28213,15 @@ shapes = (
 ref = one.numr;
 },
 {
-pos = (550,0);
+pos = (531,0);
 ref = fraction;
 },
 {
-pos = (1000,0);
+pos = (923,0);
 ref = two.dnom;
 }
 );
-width = 1908;
+width = 1831;
 }
 );
 metricLeft = one.numr;
